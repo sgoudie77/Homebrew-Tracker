@@ -86,7 +86,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   position: fixed;
 }
 
@@ -354,21 +354,16 @@ li.icon a:hover {
     margin-left: 10px;
   }
 }
-@media (max-width: 699px) {
-  .navbar .logo {
-    margin-left: 20px;
-  }
-}
 
-@media (max-width: 589px) {
+@media (max-width: 699px) {
   .navbar ul li {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .navbar .logo {
     margin-left: 20px;
   }
   .label {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   .label img {
     width: 200px;
@@ -390,7 +385,7 @@ li.icon a:hover {
   }
 }
 
-@media (max-width: 505px) {
+/* @media (max-width: 505px) {
   .navbar ul li {
     font-size: 0.9rem;
   }
@@ -411,5 +406,5 @@ li.icon a:hover {
   }
   .label img {
     width: 200px;
-  }
-}
+  } 
+} */

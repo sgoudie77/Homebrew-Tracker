@@ -365,9 +365,6 @@ li.icon a:hover {
   body.palette-primary.custom-background {
     background-size: auto 100%;
   }
-  .navbar ul {
-    padding-right: 0.5rem;
-  }
   .navbar ul li {
     font-size: 0.7rem;
     margin: 0 7px;

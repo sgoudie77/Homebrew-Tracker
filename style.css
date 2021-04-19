@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+
+/* global styles start here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(img/beer4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+/* global styles end here */
+
+/* nav styles start here */
+.navbar {
+  width: 95%;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  transform: rotate(-30deg);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: "Rye", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.navbar ul li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li .active {
+  color: orange;
+}
+/* nav styles end here */
+
+/* logo bg styles start here*/
+.label {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.label img {
+  width: 400px;
+  opacity: 0.5;
+  position: fixed;
+}
+/* logo bg styles end here*/
+
+/* title text styles start here */
+.content {
+  width: 100%;
+  position: relative;
+  transform: translateY(50%);
+  text-align: center;
+  color: #000;
+}
+
+.content h1 {
+  font-size: 6rem;
+  font-family: "Rye";
+  font-weight: 200;
+  margin-top: 2rem;
+}
+
+.content h2 {
+  font-size: 3rem;
+  font-family: "Rye", sans-serif;
+  font-weight: 200;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+/* title text styles end here */
+
+/* card styles start here */
+.card {
+  position: relative;
+  width: 90%;
+  position: relative;
+  display: block;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: #f5f5f5;
+  line-height: 1.7;
+  opacity: 0.9;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.card h3,
+.card p {
+  font-family: "Rye";
+  font-weight: 100;
+}
+
+.history {
+  text-align: left;
+}
+
+.carousel-card {
+  position: relative;
+  width: 90%;
+  display: block;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: #f5f5f5;
+  background-image: url(img/wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+/* card styles end here */
+
+/* carousel styles start here*/
+.swiper-slide img {
+  height: 500px;
+  max-width: 300px;
+  padding-bottom: 1rem;
+  padding-top: 1.1rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff;
+}
+/* carousel styles end here*/
+
+/* methods card styles start here */
+.methods {
+  margin-top: -1rem;
+}
+/* methods card styles end here */
+
+/* kit card styles start here */
+.kit {
+  position: relative;
+}
+
+.kit-box {
+  height: 8.1rem;
+  float: left;
+  padding-top: 0.4rem;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.kit h3 {
+  margin-top: -2rem;
+}
+
+.kit h3,
+.kit p {
+  margin-left: 2rem;
+}
+
+.rating {
+  width: 0.9rem;
+}
+/* kit card styles end here */
+
+/* record styles start here */
+.kit-brewed {
+  font-size: 1.2rem;
+}
+.record-icon {
+  height: 1.1rem;
+}
+/* record styles end here */
+
+/* Gallery Lightbox Styles Start Here */
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section .box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+section .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+section .box .imgBx.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+section .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+section .box .imgBx.active img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+}
+section .box .imgBx h2 {
+  opacity: 0;
+  visibility: hidden;
+}
+section .box .imgBx.active h2 {
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 15px;
+  letter-spacing: 3px;
+}
+section .box .imgBx .content {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  left: 50px;
+  opacity: 0;
+  margin-left: -3.1rem;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  color: #fff;
+  transform: translateY(100%);
+}
+section .box .imgBx.active .content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 0.5s;
+}
+section .box .imgBx.active .content h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+/* Gallery Lightbox Styles End Here */
+
+/* footer styles start here */
+.footer {
+  padding-bottom: 1rem;
+}
+
+.icons {
+  height: 50px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 0.9rem;
+  padding-top: 1rem;
+}
+
+li.icon a {
+  color: #000000;
+  padding: 1rem;
+}
+
+li.icon a:hover {
+  color: #f5f5f5;
+  cursor: pointer;
+}
+/* footer styles end here */
+
+/* Responsive Styles Start here */
+@media (max-width: 1089px) {
+  .navbar .logo {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 699px) {
+  .navbar .logo {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 589px) {
+  .navbar ul li {
+    font-size: 1.1rem;
+  }
+  .navbar .logo {
+    margin-left: 20px;
+  }
+  .content h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 539px) {
+  .navbar ul li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 505px) {
+  .navbar ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .navbar ul li {
+    font-size: 0.8rem;
+  }
+}

@@ -374,9 +374,15 @@ li.icon a:hover {
   .content h1 {
     font-size: 5rem;
   }
+  .swiper-slide img {
+    height: 334px;
+    max-width: 200px;
+    padding-bottom: 1rem;
+    padding-top: 1.1rem;
+  }
 }
 
-@media (max-width: 539px) {
+/* @media (max-width: 539px) {
   .navbar ul li {
     font-size: 1rem;
   }
@@ -386,7 +392,7 @@ li.icon a:hover {
   .label img {
     width: 200px;
   }
-}
+} */
 
 /* @media (max-width: 505px) {
   .navbar ul li {

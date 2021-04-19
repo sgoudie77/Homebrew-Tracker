@@ -368,6 +368,7 @@ li.icon a:hover {
   .navbar ul li {
     font-size: 0.7rem;
     margin: 0 7px;
+    padding-right: 1rem;
   }
   .navbar .logo {
     margin-left: 20px;

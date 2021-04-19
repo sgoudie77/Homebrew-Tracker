@@ -367,6 +367,7 @@ li.icon a:hover {
   }
   .label img {
     width: 200px;
+    height: 200px;
   }
   .content h1 {
     font-size: 5rem;

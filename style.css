@@ -88,11 +88,10 @@ body {
   justify-content: center;
   margin-top: 2.5rem;
   position: fixed;
-  z-index: 10;
 }
 
 .label img {
-  width: 200px;
+  width: 400px;
   opacity: 0.5;
 }
 /* logo bg styles end here*/
@@ -368,6 +367,12 @@ li.icon a:hover {
   .navbar .logo {
     margin-left: 20px;
   }
+  .label {
+    margin-top: 1rem;
+  }
+  .label img {
+    width: 200px;
+  }
   .content h1 {
     font-size: 5rem;
   }
@@ -377,16 +382,34 @@ li.icon a:hover {
   .navbar ul li {
     font-size: 1rem;
   }
+  .label {
+    margin-top: 1rem;
+  }
+  .label img {
+    width: 200px;
+  }
 }
 
 @media (max-width: 505px) {
   .navbar ul li {
     font-size: 0.9rem;
   }
+  .label {
+    margin-top: 1rem;
+  }
+  .label img {
+    width: 200px;
+  }
 }
 
 @media (max-width: 475px) {
   .navbar ul li {
     font-size: 0.8rem;
+  }
+  .label {
+    margin-top: 1rem;
+  }
+  .label img {
+    width: 200px;
   }
 }

@@ -357,13 +357,13 @@ li.icon a:hover {
 
 @media only screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body.palette-primary.custom-background {
-    background-size: auto 100%;
+    background-size: 100% 100%;
   }
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+/* max-device-width: 568px and (orientation:portrait) and (orientation:landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body.palette-primary.custom-background {
-    background-size: auto 100%;
+    background-size: 100% 100%;
   }
   .navbar ul li {
     font-size: 0.7rem;

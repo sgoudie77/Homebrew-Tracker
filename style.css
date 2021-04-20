@@ -364,7 +364,6 @@ li.icon a:hover {
     background-position: center center;
     /* background-attachment: fixed; */
     position: fixed;
-    z-index: -1;
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -403,8 +402,6 @@ li.icon a:hover {
     background-position: center center;
     /* background-attachment: fixed; */
     position: fixed;
-    z-index: -1;
-    /* remove attchment fixed and replace with position: fixed and maybe z-index */
   }
   .navbar ul li {
     font-size: 0.7rem;

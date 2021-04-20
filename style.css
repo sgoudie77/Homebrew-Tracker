@@ -362,7 +362,6 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: fixed;
     /* background-attachment: fixed; */
   }
   .navbar ul li {
@@ -399,7 +398,6 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: fixed;
     /* background-attachment: fixed; */
   }
   .navbar ul li {

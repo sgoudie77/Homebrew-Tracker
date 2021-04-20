@@ -358,9 +358,9 @@ li.icon a:hover {
 /* .palette-primary.custom-background */
 @media only screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
-    background-image: url(img/mobilebg.png);
+    background-image: url(img/mobilebg2.png);
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 100%;
     background-position: center center;
     background-attachment: fixed;
   }
@@ -391,9 +391,9 @@ li.icon a:hover {
 /* max-device-width: 568px and (orientation:portrait) and (orientation:landscape) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
-    background-image: url(img/mobilebg.png);
+    background-image: url(img/mobilebg2.png);
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 100%;
     background-position: center center;
     background-attachment: fixed;
   }

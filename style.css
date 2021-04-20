@@ -359,7 +359,7 @@ li.icon a:hover {
 @media only screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
     background-image: none;
-    background: rgb(255, 253, 141);
+    background: #dec623;
     /* background-image: url(img/mobilebg91.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,7 +397,7 @@ li.icon a:hover {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
     background-image: none;
-    background: rgb(255, 253, 141);
+    background: #dec623;
     /* background-image: url(img/mobilebg91.png);
     background-repeat: no-repeat;
     background-size: cover;

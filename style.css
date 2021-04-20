@@ -358,13 +358,11 @@ li.icon a:hover {
 /* .palette-primary.custom-background */
 @media only screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
-    background-image: none;
-    background: #dec623;
-    /* background-image: url(img/mobilebg91.png);
+    background-image: url(img/mobilebg91.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed; */
+    background-attachment: fixed;
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -396,13 +394,11 @@ li.icon a:hover {
 /* max-device-width: 568px and (orientation:portrait) and (orientation:landscape) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
-    background-image: none;
-    background: #dec623;
-    /* background-image: url(img/mobilebg91.png);
+    background-image: url(img/mobilebg91.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed; */
+    background-attachment: fixed;
   }
   .navbar ul li {
     font-size: 0.7rem;

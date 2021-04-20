@@ -362,7 +362,9 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    position: fixed;
+    z-index: -1;
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -383,6 +385,7 @@ li.icon a:hover {
   }
   .content h1 {
     font-size: 5rem;
+    margin-bottom: 1rem;
   }
   .swiper-slide img {
     height: 268px;
@@ -398,7 +401,10 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    position: fixed;
+    z-index: -1;
+    /* remove attchment fixed and replace with position: fixed and maybe z-index */
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -419,6 +425,7 @@ li.icon a:hover {
   }
   .content h1 {
     font-size: 5rem;
+    margin-bottom: 1rem;
   }
   .swiper-slide img {
     height: 268px;

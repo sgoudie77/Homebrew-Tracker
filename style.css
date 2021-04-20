@@ -359,7 +359,7 @@ li.icon a:hover {
 @media only screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   body {
     background-size: 100% 100%;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
   .navbar ul li {
     font-size: 0.7rem;

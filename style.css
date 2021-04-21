@@ -362,8 +362,7 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* background-attachment: fixed; */
-    position: fixed;
+    background-attachment: fixed;
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -373,7 +372,7 @@ li.icon a:hover {
     margin-left: 10px;
   }
   .navbar ul li .active {
-    color: #ffffff;
+    color: #f5f5f5;
   }
   .label {
     margin-top: 0.5rem;
@@ -400,8 +399,7 @@ li.icon a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* background-attachment: fixed; */
-    position: fixed;
+    background-attachment: fixed;
   }
   .navbar ul li {
     font-size: 0.7rem;
@@ -411,7 +409,7 @@ li.icon a:hover {
     margin-left: 10px;
   }
   .navbar ul li .active {
-    color: #ffffff;
+    color: #f5f5f5;
   }
   .label {
     margin-top: 0.5rem;

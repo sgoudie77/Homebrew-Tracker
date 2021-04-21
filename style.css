@@ -197,6 +197,18 @@ body {
 }
 /* methods card styles end here */
 
+/* measurement chart styles start here */
+td {
+  position: relative;
+  padding-right: 1rem;
+  font-family: "Rye";
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+/* measurement chart styles end here */
+
 /* kit card styles start here */
 .kit {
   position: relative;

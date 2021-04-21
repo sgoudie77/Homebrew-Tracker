@@ -200,9 +200,9 @@ body {
 /* measurement chart styles start here */
 td {
   position: relative;
-  /* padding-right: 0.5rem; */
+  padding-right: 0.3rem;
   font-family: "Rye";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   align-items: center;
   justify-content: center;
   align-content: center;

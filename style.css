@@ -200,9 +200,15 @@ body {
 
 /* methods card styles start here */
 .methods {
-  margin-top: -1rem;
+  margin-top: 2.6rem;
 }
 /* methods card styles end here */
+
+/* news styles start here */
+.news {
+  padding-top: -5rem;
+}
+/* news styles end here */
 
 /* measurement chart styles start here */
 td {

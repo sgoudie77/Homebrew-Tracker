@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSB Brew Records</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-area"></div>
+
+    <div class="container">
+        
+            <!-- nav starts here -->
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="img/home.png" class="logo" alt=""></a>
+                </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="navbar">
+                    <ul class="navigation">
+                        <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+                        <li><a href="info.html" onclick="toggleMenu();">Info</a></li>
+                        <li><a href="#" class="active" onclick="toggleMenu();">Brews</a></li>
+                        <li><a href="gallery.html" onclick="toggleMenu();">Pics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav ends here -->
+
+            <!-- logo bg starts here -->
+            <div class="label">
+                <img src="img/small-logo.png" alt="logo">
+            </div>
+            <!-- logo bg ends here -->
+            <div class="brews-main">
+            <!-- record cards start here -->
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: American Lager Light 5th</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: Oct 7th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: n/a</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: Nov 7th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: Used spring water</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: American Lager Light 4th</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: Aug 20th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: n/a</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: Sep 22nd</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes:</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: American Lager Light 3rd</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: Aug 4th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: n/a</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: Aug 20th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: Used spring water</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Muntons Lager</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: July 12th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: July 17th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: July 31st</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes:</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Coopers Lager</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: May 26th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: June 7th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: (June 20th)</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes:</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Coopers Blonde 2nd</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: May 18th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: May 24th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: June 7th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: stirred yeast, used special priming sugar</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Coopers Blonde 1st</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: May 11th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: May 14th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: May 24th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: used special dextrose, stirred yeast</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: New Zealand Pilsner</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: April 18th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: May 4th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: May 11th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: didn't pre-boil</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: American Lager Light 2nd</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: April 15th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: April 18th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: May 4th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: none</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Coopers Draught</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: March 31st</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: April 7th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: April 13th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: leaked 5 litres</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Australian Gold Lager</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: March 19th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: March 26th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: April 2nd</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: didn't pre-boil</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: Muntons Cervaza</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: March 12th</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: March 19th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: March 26th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: 6.5% alc</p>
+            </div>
+            <div class="card records">
+                <p class="kit-brewed">Kit Brewed: American Lager Light 1st</p>
+                <p><img src="img/fermenter.png" class="record-icon">&nbsp;&nbsp;&nbsp;Brew Date: only carboy</p>
+                <p><img src="img/carboy.png" class="record-icon">&nbsp;&nbsp;&nbsp;Transfer Date: March 7th</p>
+                <p><img src="img/bottling.png" class="record-icon">&nbsp;&nbsp;Bottle Date: March 19th</p>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp;Important Notes: capper failed, 4% alc</p>
+            </div>
+            <!-- record cards end here -->
+
+            <!-- footer starts here -->
+            <div class="footer">
+                <ul class="icons">        
+                    <li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-instagram"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <!-- footer ends here -->
+    </div>
+    
+</div>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>

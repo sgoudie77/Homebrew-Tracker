@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSB Brew Info</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-area"></div>
+
+    <div class="container">
+        
+            <!-- nav starts here -->
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="img/home.png" class="logo" alt=""></a>
+                </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="navbar">
+                    <ul class="navigation">
+                        <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+                        <li><a href="#" class="active" onclick="toggleMenu();">Info</a></li>
+                        <li><a href="records.html" onclick="toggleMenu();">Brews</a></li>
+                        <li><a href="gallery.html" onclick="toggleMenu();">Pics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav ends here -->
+
+            <!-- logo bg starts here -->
+            <div class="label">
+                <img src="img/small-logo.png" alt="logo">
+            </div>
+            <!-- logo bg ends here -->
+            <div class="info-main">
+            <!-- method start here -->
+            <div class="card methods">
+                <h3>JSB Brewing Method</h3>
+                <p>
+                    1. Clean and sanitize all equipment: fermenter, lid, and mixing spoon with sanitizing detergent.<br>
+                    2. Place the beer can or pouch in hot water for 15 minutes to soften the extract.<br>
+                    3. Boil 4 litres of water in a large pot, add the contents of the tin or pouch and corn sugar.<br>
+                    4. Rinse out any remains from the tin or pouch with hot water, and mix everything well.<br>
+                    5. Pour mixture into a sanitized fermenter, and top up to 23 litres with cold tap water or other clean water.<br>
+                    6. Cover the fermenter and let stand until temperature is below 25°C, and then sprinkle in the yeast.<br>
+                    7. Fill the airlock halfway with water, and put in the fermentor lid.<br>
+                    8. Wait for up to 10 days until the airlock has stopped bubbling, keeping the fermenter around 20-25°C.<br>
+                    9. Transfer to a carboy midway to reduce sediment.<br>
+                    10. Check the alcohol level now using a sterilized hydrometer. The value should be equal or below the listed value.<br>
+                    11. Clean and sanitize bottles, siphoning hose and bottler, and siphon back into a fermenter bucket again.<br>
+                    12. Lift your fermenter onto a high surface before bottling to allow gravity to help settle sediment that may have moved.<br>
+                    13. Dissolve your priming sugar in 500ml of boiling water, let cool, and mix well into the fermenter.<br>
+                    14. Siphon from the fermenter into the bottles, leaving 5cm airspace at the top when filling each bottle.<br>
+                    15. Store your bottles in a dark place at room temperature for 2 weeks to reduce cloudiness during carbonization.<br>
+                </p>
+            </div>
+            <!-- method ends here -->
+
+            <!-- measurement chart starts here -->
+            <div class="card">
+                <h4>Measurement Chart</h4>
+                <table>
+                    <tr>
+                        <td>1 TBSP</td>
+                        <td>=</td>
+                        <td>3 tsp</td>
+                        <td>=</td>
+                        <td>14.78 ml</td>
+                    </tr>
+                    <tr>
+                        <td>1 fl oz</td>
+                        <td>=</td>
+                        <td>2 TBSP</td>
+                        <td>=</td>
+                        <td>29.57 ml</td>
+                    </tr>
+                    <tr>
+                        <td>1 cup</td>
+                        <td>=</td>
+                        <td>8 fl oz</td>
+                        <td>=</td>
+                        <td>237 ml</td>
+                    </tr>
+                    <tr>
+                        <td>1 pint (US)</td>
+                        <td>=</td>
+                        <td>2 cups</td>
+                        <td>=</td>
+                        <td>16 fl oz</td>
+                    </tr>
+                    <tr>
+                        <td>1 pint (UK)</td>
+                        <td>=</td>
+                        <td>20 fl oz</td>
+                        <td>=</td>
+                        <td>570 ml</td>
+                    </tr>
+                    <tr>
+                        <td>1 quart</td>
+                        <td>=</td>
+                        <td>2 pints</td>
+                        <td>=</td>
+                        <td>946.3 ml</td>
+                    </tr>
+                    <tr>
+                        <td>1 gallon</td>
+                        <td>=</td>
+                        <td>4 quarts</td>
+                        <td>=</td>
+                        <td>3.78 L</td>
+                    </tr>
+                    <tr>
+                        <td>1 L</td>
+                        <td>=</td>
+                        <td>35.2 fl oz</td>
+                        <td>=</td>
+                        <td>1.76 pints</td>
+                    </tr>
+                    <tr>
+                        <td>23 L</td>
+                        <td>=</td>
+                        <td>6 gallons</td>
+                        <td>=</td>
+                        <td>40.4 pints</td>
+                    </tr>
+                </table>
+
+            </div>
+            <!-- measurement chart ends here -->
+
+            <!-- newsfeed starts here -->
+            <div class="card news">
+                <h4>Beer News</h4>
+                <!-- start sw-rss-feed code --> 
+                <script type="text/javascript">   
+                rssfeed_url = new Array(); 
+                rssfeed_url[0]="https://beerandbrewing.com/rss/"; rssfeed_url[1]="https://athomebrewer.com/feed"; rssfeed_url[2]="http://beersmith.com/blog/feed/"; rssfeed_url[3]="http://feeds.feedburner.com/CraftBeerBrewingMagazinePodcast"; rssfeed_url[4]="https://www.canadianbeernews.com/feed/";  
+                rssfeed_frame_width="100%"; 
+                rssfeed_frame_height="300"; 
+                rssfeed_scroll="on"; 
+                rssfeed_scroll_step="9"; 
+                rssfeed_scroll_bar="off"; 
+                rssfeed_target="_blank"; 
+                rssfeed_font_size="14"; 
+                rssfeed_font_face="Times"; 
+                rssfeed_border="off"; 
+                rssfeed_css_url=""; 
+                rssfeed_title="off"; 
+                rssfeed_title_name=""; 
+                rssfeed_title_bgcolor="#3366ff"; 
+                rssfeed_title_color="#ffcc00"; 
+                rssfeed_title_bgimage=""; 
+                rssfeed_footer="off"; 
+                rssfeed_footer_name="rss feed"; 
+                rssfeed_footer_bgcolor="#fff"; 
+                rssfeed_footer_color="#333"; 
+                rssfeed_footer_bgimage=""; 
+                rssfeed_item_title_length="50"; 
+                rssfeed_item_title_color="#ffcc00"; 
+                rssfeed_item_bgcolor="#"; 
+                rssfeed_item_bgimage=""; 
+                rssfeed_item_border_bottom="on"; 
+                rssfeed_item_source_icon="on"; 
+                rssfeed_item_date="on"; 
+                rssfeed_item_description="on"; 
+                rssfeed_item_description_length="500"; 
+                rssfeed_item_description_color="#000"; 
+                rssfeed_item_description_link_color="#ffcc00"; 
+                rssfeed_item_description_tag="on"; 
+                rssfeed_no_items="0"; 
+                rssfeed_cache = "c773934f8f0cc232b1e6413786f71dca"; 
+                </script> 
+            <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+            <!-- end sw-rss-feed code -->
+            </div>
+            <!-- newsfeed ends here -->
+
+            <!-- kit cards start here -->
+            <div class="card kit">
+                <img src="img/american-light.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: American Lager Light</p>
+                    <p>Flavour: Light body, not bitter or sweet</p>
+                    <p>Description: Good taste and carbonization</p>
+                    <p>Tastes Like: Canadian</p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/mugc.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/cerveza.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Muntons Cerveza</p>
+                    <p>Flavour: Medium body, slightly bitter & dry</p>
+                    <p>Description: Excellent bubbles and head</p>
+                    <p>Tastes Like: Rickard's Red</p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/mugc.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/aust-gold.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Australian Gold Lager</p>
+                    <p>Flavour: </p>
+                    <p>Description: </p>
+                    <p>Tastes Like: </p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/coopers-draught.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Coopers Draught</p>
+                    <p>Flavour: Bitter</p>
+                    <p>Description: </p>
+                    <p>Tastes Like: Ale</p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/muga.png" class="rating" alt="">
+                        <img src="img/mugc.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/nz-pilsner.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Mangrove Jack's Pilsner</p>
+                    <p>Flavour: </p>
+                    <p>Description: </p>
+                    <p>Tastes Like: </p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/morgans-blonde.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Morgan's Canadian Blonde</p>
+                    <p>Flavour: </p>
+                    <p>Description: </p>
+                    <p>Tastes Like: </p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/coopers-lager.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Coopers Lager</p>
+                    <p>Flavour: </p>
+                    <p>Description: </p>
+                    <p>Tastes Like: </p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card kit">
+                <img src="img/Muntons-Lager.png" class="kit-box" alt="">
+                <div class="kit-info">
+                    <p>Kit Name: Muntons Premium Lager</p>
+                    <p>Flavour: </p>
+                    <p>Description: </p>
+                    <p>Tastes Like: </p>
+                    <p>Rating:&nbsp;  
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                        <img src="img/mugb.png" class="rating" alt="">
+                    </p>
+                </div>
+            </div>
+            <!-- kit cards end here -->
+
+            <!-- footer starts here -->
+            <div class="footer">
+                <ul class="icons">        
+                    <li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-instagram"></i></a></li>        
+                    <li class="icon"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <!-- footer ends here -->
+    </div>
+    
+</div>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>

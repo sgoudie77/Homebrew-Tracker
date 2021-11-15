@@ -431,7 +431,7 @@ li.icon a:hover {
     background: url(img/beer4.jpg) top 35% center no-repeat;
   }
   .label {
-    margin-top: 22rem;
+    margin-top: 12rem;
   }
   /* .label img {
     width: 400px;
@@ -488,10 +488,9 @@ li.icon a:hover {
       z-index: 10;
   }
   .header .navbar ul.navigation.active li {
-      padding: 2.5rem;
-      font-size: 2rem;
-      letter-spacing: 2px;
-      
+      padding: 1.5rem;
+      font-size: 1.25rem;
+      letter-spacing: 2px;  
   }
   .header .navbar ul.navigation.active li a {
       padding-left: 0;

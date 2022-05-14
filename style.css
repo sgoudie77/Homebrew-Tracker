@@ -1,7 +1,7 @@
+/* global styles start here */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
 
-/* global styles start here */
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +52,7 @@ body {
 }
 
 .header.sticky {
-  height: 100px;
+  height: 70px;
     background: rgba(0,0,0,0.7);
     transition: 0.3s ease-in-out;
     z-index: 9;
@@ -61,6 +61,11 @@ body {
 .logo {
   width: 50px;
   cursor: pointer;
+  z-index: 10;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .logo:hover {
@@ -484,7 +489,7 @@ li.icon a:hover {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background: #000000;
+      background: #000000d0;
       z-index: 10;
   }
   .header .navbar ul.navigation.active li {
